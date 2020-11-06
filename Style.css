@@ -1,0 +1,223 @@
+@font-face{ 
+	font-family: 'MyFont';
+	src: url('MonospaceTypewriter-webfont.woff') format('woff');
+}
+.body{
+    font-family: 'MyFont';
+}
+.black-section{
+    background-color: black;
+}
+.dark-purp{
+    background-color: #52057b;
+}
+.navbar{
+   background-color: black;
+}
+.navi{
+    background-color: black;
+}
+.navbar-toggler-ico {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+.brand{
+    color: #bc6ff1;
+}
+.brand:hover{
+    color: white !important;
+
+}
+.li{
+    margin-left: 20px !important;
+}
+.li:hover{
+    color: white !important;
+    transform: scale(1.2) !important;
+}
+.intro{
+    position: relative;
+    background-color: #52057b;
+}
+  .introo{
+    position: relative;
+    background-color: #52057b;
+    text-align: center;
+    color:#fff !important;
+    padding-top:7em;
+  }
+  .introo a{
+      text-decoration: none;
+      cursor: default;
+  }
+  .titleimage{
+      margin: 100px;
+      border-radius: 20%;
+  }
+  #port{
+      position: relative;
+      background-color: #892cdc;
+      padding-bottom: 50px;
+  }
+  .portfolio{
+      text-align: center;
+      margin-top: 100px;
+  }
+  .card-header{
+      background-color: #52057b;
+      color: white;
+      border-style: solid;
+      border-width: 1px;
+      border-color: black;
+  }
+  .card-body{
+      background-color: #bc6ff1;
+      color: white;
+      border-style: solid;
+      border-width: 1px;
+      border-color: black;
+  }
+  .skill{
+      list-style: none;
+  }
+.car1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.car2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+.car1:hover{
+    transform: scale(1.3);
+    transition-duration: 1.25s;
+    z-index: 2;
+}
+.car2:hover{
+    transform: scale(1.3);
+    transition-duration: 1.25s;
+    z-index: 2;
+}
+.edu{
+    transform-origin: left;
+    cursor: pointer;
+}
+.por{
+    transform-origin: right;
+}
+.heading{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+.pro1{
+    transform-origin: left;
+    cursor: pointer;  
+    margin-top: 20px;
+}
+.pro2{
+    margin-top: 20px;
+}
+.pro3{
+    transform-origin: right;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.floatIcon{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	overflow: hidden;
+	color: rgba(255, 255, 255, 0.8);
+}
+.bottom-container {
+	background-color: #bc6ff1;
+	padding: 50px 0 20px;
+	text-align: center;
+}
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+.small{
+    height: 53.273px ;
+    width: 53.294px ;
+}
+@media(max-width:1000px){
+.titleimage{
+    size: 50%;
+    margin: 10%;
+}
+.edu{
+    padding-right: 5%;
+    padding-left: 5%;
+    transform-origin: center;
+}
+.por{
+    padding-right: 5%;
+    padding-left: 5%;
+    transform-origin: center;
+}
+.ski{
+    padding-right: 5%;
+    padding-left: 5%;
+    transform-origin: center;
+}
+.pro1{
+    transform-origin: center;
+}
+.pro2{
+    transform-origin: center;
+}
+.pro3{
+    transform-origin: center;
+}
+.car2:hover{
+    transform: scale(1.1);
+    transition-duration: 1.25s;
+    z-index: 2;
+}
+.car1:hover{
+    transform: scale(1.1);
+    transition-duration: 1.25s;
+    z-index: 2;
+}
+
+.nav-but{
+    background-color: #52057b;
+    color: black;
+    font-size: small;
+}
+.li:hover{
+    color: white !important;
+    transform: scale(1) !important;
+}
+}
