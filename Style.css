@@ -115,7 +115,6 @@
 }
 .edu{
     transform-origin: left;
-    cursor: pointer;
 }
 .por{
     transform-origin: right;
@@ -127,8 +126,7 @@
     font-size: 50px;
 }
 .pro1{
-    transform-origin: left;
-    cursor: pointer;  
+    transform-origin: left;  
     margin-top: 20px;
 }
 .pro2{
@@ -136,7 +134,6 @@
 }
 .pro3{
     transform-origin: right;
-    cursor: pointer;
     margin-top: 20px;
 }
 .floatIcon{
