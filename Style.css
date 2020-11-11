@@ -24,6 +24,13 @@
     background: no-repeat center center;
     background-size: 100% 100%;
 }
+.card-decks {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-left: -15px;
+}
 .brand{
     color: #bc6ff1;
 }
