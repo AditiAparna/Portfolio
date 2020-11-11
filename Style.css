@@ -14,9 +14,6 @@
 .navbar{
    background-color: black;
 }
-.navi{
-    background-color: black;
-}
 .navbar-toggler-ico {
     display: inline-block;
     vertical-align: middle;
@@ -24,19 +21,20 @@
     background: no-repeat center center;
     background-size: 100% 100%;
 }
-.card-decks {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    margin-left: -15px;
-}
 .brand{
     color: #bc6ff1;
 }
 .brand:hover{
     color: white !important;
 
+}
+.card-decks {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    /* margin-right: -15px; */
+    margin-left: -15px;
 }
 .li{
     margin-left: 20px !important;
@@ -122,6 +120,7 @@
 }
 .edu{
     transform-origin: left;
+    cursor: pointer;
 }
 .por{
     transform-origin: right;
@@ -133,7 +132,8 @@
     font-size: 50px;
 }
 .pro1{
-    transform-origin: left;  
+    transform-origin: left;
+    cursor: pointer;  
     margin-top: 20px;
 }
 .pro2{
@@ -141,6 +141,7 @@
 }
 .pro3{
     transform-origin: right;
+    cursor: pointer;
     margin-top: 20px;
 }
 .floatIcon{
